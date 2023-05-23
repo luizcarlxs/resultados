@@ -304,11 +304,11 @@ Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 414.7847 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.82 cm
 Área de aço (Asy) = 0.88 cm²
-Ferro utilizado: Ø5 (área = 0.20 cm²)
-Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.20 ⋅ 100/0.88 = 22.24 cm
-Espy = 22.00 cm (projeto)
+Ferro utilizado: Ø6 (área = 0.28 cm²)
+Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.28 ⋅ 100/0.88 = 32.00 cm
+Espy = 31.00 cm (projeto)
 --------------------------------------------------------
-FERRO EM Y: 18 N12 Ø5.0 C/22 C = 557
+FERRO EM Y: 12 N12 Ø6.0 C/31 C = 557
 --------------------------------------------------------
 --------------------------------------------------------
 CÁLCULO DOS ESFORÇOS - LAJE L8
@@ -364,11 +364,11 @@ Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ Mx = 275.9981 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.86 cm
 Área de aço (Asx) = 0.58 cm²
-Ferro utilizado: Ø5 (área = 0.20 cm²)
-Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.20 ⋅ 100/0.58 = 33.53 cm
-Espx = 33.00 cm (projeto)
+Ferro utilizado: Ø6 (área = 0.28 cm²)
+Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.28 ⋅ 100/0.58 = 48.25 cm
+Espx = 48.00 cm (projeto)
 --------------------------------------------------------
-FERRO EM X: 10 N15 Ø5.0 C/33 C = 177
+FERRO EM X: 7 N15 Ø6.0 C/48 C = 177
 --------------------------------------------------------
 
 
@@ -382,11 +382,11 @@ Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 111.9104 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.90 cm
 Área de aço (Asy) = 0.24 cm²
-Ferro utilizado: Ø5 (área = 0.20 cm²)
-Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.20 ⋅ 100/0.24 = 83.02 cm
-Espy = 83.00 cm (projeto)
+Ferro utilizado: Ø6 (área = 0.28 cm²)
+Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.28 ⋅ 100/0.24 = 119.44 cm
+Espy = 119.00 cm (projeto)
 --------------------------------------------------------
-FERRO EM Y: 3 N16 Ø5.0 C/83 C = 333
+FERRO EM Y: 2 N16 Ø6.0 C/119 C = 333
 --------------------------------------------------------
 --------------------------------------------------------
 CÁLCULO DOS ESFORÇOS - LAJE L9
@@ -442,11 +442,11 @@ Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ Mx = 111.9104 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.90 cm
 Área de aço (Asx) = 0.24 cm²
-Ferro utilizado: Ø5 (área = 0.20 cm²)
-Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.20 ⋅ 100/0.24 = 83.02 cm
-Espx = 83.00 cm (projeto)
+Ferro utilizado: Ø6 (área = 0.28 cm²)
+Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.28 ⋅ 100/0.24 = 119.44 cm
+Espx = 119.00 cm (projeto)
 --------------------------------------------------------
-FERRO EM X: 2 N17 Ø5.0 C/83 C = 126
+FERRO EM X: 2 N17 Ø6.0 C/119 C = 126
 --------------------------------------------------------
 
 
@@ -460,11 +460,11 @@ Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 111.9104 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.90 cm
 Área de aço (Asy) = 0.24 cm²
-Ferro utilizado: Ø5 (área = 0.20 cm²)
-Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.20 ⋅ 100/0.24 = 83.02 cm
-Espy = 83.00 cm (projeto)
+Ferro utilizado: Ø6 (área = 0.28 cm²)
+Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.28 ⋅ 100/0.24 = 119.44 cm
+Espy = 119.00 cm (projeto)
 --------------------------------------------------------
-FERRO EM Y: 2 N18 Ø5.0 C/83 C = 142
+FERRO EM Y: 1 N18 Ø6.0 C/119 C = 142
 --------------------------------------------------------
 --------------------------------------------------------
 CÁLCULO DOS ESFORÇOS - LAJE L10
@@ -520,11 +520,11 @@ Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ Mx = 183.5870 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.88 cm
 Área de aço (Asx) = 0.39 cm²
-Ferro utilizado: Ø5 (área = 0.20 cm²)
-Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.20 ⋅ 100/0.39 = 50.52 cm
-Espx = 50.00 cm (projeto)
+Ferro utilizado: Ø6 (área = 0.28 cm²)
+Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.28 ⋅ 100/0.39 = 72.69 cm
+Espx = 72.00 cm (projeto)
 --------------------------------------------------------
-FERRO EM X: 4 N19 Ø5.0 C/50 C = 194
+FERRO EM X: 3 N19 Ø6.0 C/72 C = 194
 --------------------------------------------------------
 
 
@@ -538,11 +538,11 @@ Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 176.4925 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.89 cm
 Área de aço (Asy) = 0.37 cm²
-Ferro utilizado: Ø5 (área = 0.20 cm²)
-Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.20 ⋅ 100/0.37 = 52.56 cm
-Espy = 52.00 cm (projeto)
+Ferro utilizado: Ø6 (área = 0.28 cm²)
+Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.28 ⋅ 100/0.37 = 75.62 cm
+Espy = 75.00 cm (projeto)
 --------------------------------------------------------
-FERRO EM Y: 4 N20 Ø5.0 C/52 C = 199
+FERRO EM Y: 3 N20 Ø6.0 C/75 C = 199
 --------------------------------------------------------
 --------------------------------------------------------
 CÁLCULO DOS ESFORÇOS - LAJE L11
@@ -598,11 +598,11 @@ Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ Mx = 180.7449 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.88 cm
 Área de aço (Asx) = 0.38 cm²
-Ferro utilizado: Ø5 (área = 0.20 cm²)
-Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.20 ⋅ 100/0.38 = 51.32 cm
-Espx = 51.00 cm (projeto)
+Ferro utilizado: Ø6 (área = 0.28 cm²)
+Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.28 ⋅ 100/0.38 = 73.83 cm
+Espx = 73.00 cm (projeto)
 --------------------------------------------------------
-FERRO EM X: 4 N21 Ø5.0 C/51 C = 161
+FERRO EM X: 3 N21 Ø6.0 C/73 C = 161
 --------------------------------------------------------
 
 
@@ -616,11 +616,11 @@ Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 129.8254 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.90 cm
 Área de aço (Asy) = 0.27 cm²
-Ferro utilizado: Ø5 (área = 0.20 cm²)
-Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.20 ⋅ 100/0.27 = 71.53 cm
-Espy = 71.00 cm (projeto)
+Ferro utilizado: Ø6 (área = 0.28 cm²)
+Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.28 ⋅ 100/0.27 = 102.92 cm
+Espy = 102.00 cm (projeto)
 --------------------------------------------------------
-FERRO EM Y: 3 N22 Ø5.0 C/71 C = 191
+FERRO EM Y: 2 N22 Ø6.0 C/102 C = 191
 --------------------------------------------------------
 --------------------------------------------------------
 CÁLCULO DOS ESFORÇOS - LAJE L12
@@ -676,11 +676,11 @@ Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ Mx = 224.0832 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.87 cm
 Área de aço (Asx) = 0.47 cm²
-Ferro utilizado: Ø5 (área = 0.20 cm²)
-Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.20 ⋅ 100/0.47 = 41.35 cm
-Espx = 41.00 cm (projeto)
+Ferro utilizado: Ø6 (área = 0.28 cm²)
+Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.28 ⋅ 100/0.47 = 59.49 cm
+Espx = 59.00 cm (projeto)
 --------------------------------------------------------
-FERRO EM X: 6 N23 Ø5.0 C/41 C = 126
+FERRO EM X: 4 N23 Ø6.0 C/59 C = 126
 --------------------------------------------------------
 
 
@@ -694,11 +694,11 @@ Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 111.9104 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.90 cm
 Área de aço (Asy) = 0.24 cm²
-Ferro utilizado: Ø5 (área = 0.20 cm²)
-Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.20 ⋅ 100/0.24 = 83.02 cm
-Espy = 83.00 cm (projeto)
+Ferro utilizado: Ø6 (área = 0.28 cm²)
+Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.28 ⋅ 100/0.24 = 119.44 cm
+Espy = 119.00 cm (projeto)
 --------------------------------------------------------
-FERRO EM Y: 2 N24 Ø5.0 C/83 C = 228
+FERRO EM Y: 1 N24 Ø6.0 C/119 C = 228
 --------------------------------------------------------
 --------------------------------------------------------
 CÁLCULO DOS ESFORÇOS - LAJE L13
@@ -850,11 +850,11 @@ Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 385.1356 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.83 cm
 Área de aço (Asy) = 0.82 cm²
-Ferro utilizado: Ø5 (área = 0.20 cm²)
-Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.20 ⋅ 100/0.82 = 23.97 cm
-Espy = 23.00 cm (projeto)
+Ferro utilizado: Ø8 (área = 0.50 cm²)
+Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.50 ⋅ 100/0.82 = 61.39 cm
+Espy = 61.00 cm (projeto)
 --------------------------------------------------------
-FERRO EM Y: 16 N28 Ø5.0 C/23 C = 556
+FERRO EM Y: 7 N28 Ø8.0 C/61 C = 556
 --------------------------------------------------------
 --------------------------------------------------------
 CÁLCULO DOS ESFORÇOS - LAJE L16
