@@ -39,7 +39,7 @@ LAJE L1 - (4.34 m x 5.38 m)
 --------------------------------------------------------
 Altura Útil (d) = 10.93 cm
 cobrimento (c) = 3.00 cm
-Concreto C30 (fck = 30.00 MPa)
+Concreto C30 (fck = 30.00 MPa = 3.00 kN/cm²)
 Aço CA-50 (fyk = 500.00 MPa)
 
 --------------------------------------------------------
@@ -51,7 +51,9 @@ linha neutra x = 0.81 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ Mx = 1244.6733 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.61 cm
-Área de aço (Asx) = 2.70 cm²
+Área de aço (Asx) = 1244.6733/(10.61 ⋅ 50.00/1.15)
+Asx = 2.70 cm²
+Asxmin = 2.24 cm²
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.50 ⋅ 100/2.70 = 18.60 cm
 Espx = 18.00 cm (projeto)
@@ -69,7 +71,9 @@ linha neutra x = 0.52 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 809.6761 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.72 cm
-Área de aço (Asy) = 1.74 cm²
+Área de aço (Asy) = 809.6761/(10.72 ⋅ 50.00/1.15)
+Asy = 1.74 cm²
+Asymin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espy = 22.00 cm (projeto)
@@ -117,7 +121,7 @@ LAJE L2 - (4.79 m x 7.11 m)
 --------------------------------------------------------
 Altura Útil (d) = 10.93 cm
 cobrimento (c) = 3.00 cm
-Concreto C30 (fck = 30.00 MPa)
+Concreto C30 (fck = 30.00 MPa = 3.00 kN/cm²)
 Aço CA-50 (fyk = 500.00 MPa)
 
 --------------------------------------------------------
@@ -129,7 +133,9 @@ linha neutra x = 1.00 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ Mx = 1537.8719 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.53 cm
-Área de aço (Asx) = 3.36 cm²
+Área de aço (Asx) = 1537.8719/(10.53 ⋅ 50.00/1.15)
+Asx = 3.36 cm²
+Asxmin = 2.24 cm²
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.50 ⋅ 100/3.36 = 14.94 cm
 Espx = 14.00 cm (projeto)
@@ -147,7 +153,9 @@ linha neutra x = 0.44 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 692.9091 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.75 cm
-Área de aço (Asy) = 1.48 cm²
+Área de aço (Asy) = 692.9091/(10.75 ⋅ 50.00/1.15)
+Asy = 1.48 cm²
+Asymin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espy = 22.00 cm (projeto)
@@ -195,7 +203,7 @@ LAJE L5 - (4.58 m x 6.19 m)
 --------------------------------------------------------
 Altura Útil (d) = 10.93 cm
 cobrimento (c) = 3.00 cm
-Concreto C30 (fck = 30.00 MPa)
+Concreto C30 (fck = 30.00 MPa = 3.00 kN/cm²)
 Aço CA-50 (fyk = 500.00 MPa)
 
 --------------------------------------------------------
@@ -207,12 +215,14 @@ linha neutra x = 1.10 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ Mx = 1686.2917 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.49 cm
-Área de aço (Asx) = 3.70 cm²
-Ferro utilizado: Ø8 (área = 0.50 cm²)
-Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.50 ⋅ 100/3.70 = 13.58 cm
-Espx = 13.00 cm (projeto)
+Área de aço (Asx) = 1686.2917/(10.49 ⋅ 50.00/1.15)
+Asx = 3.70 cm²
+Asxmin = 2.24 cm²
+Ferro utilizado: Ø10 (área = 0.79 cm²)
+Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.79 ⋅ 100/3.70 = 21.23 cm
+Espx = 21.00 cm (projeto)
 --------------------------------------------------------
-FERRO EM X: 47 N9 Ø8.0 C/13 C = 453
+FERRO EM X: 29 N9 Ø10.0 C/21 C = 453
 --------------------------------------------------------
 
 
@@ -225,7 +235,9 @@ linha neutra x = 0.59 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 925.2985 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.69 cm
-Área de aço (Asy) = 1.99 cm²
+Área de aço (Asy) = 925.2985/(10.69 ⋅ 50.00/1.15)
+Asy = 1.99 cm²
+Asymin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espy = 22.00 cm (projeto)
@@ -273,7 +285,7 @@ LAJE L6 - (3.97 m x 5.62 m)
 --------------------------------------------------------
 Altura Útil (d) = 10.93 cm
 cobrimento (c) = 3.00 cm
-Concreto C30 (fck = 30.00 MPa)
+Concreto C30 (fck = 30.00 MPa = 3.00 kN/cm²)
 Aço CA-50 (fyk = 500.00 MPa)
 
 --------------------------------------------------------
@@ -285,7 +297,9 @@ linha neutra x = 0.54 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ Mx = 836.5241 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.72 cm
-Área de aço (Asx) = 1.80 cm²
+Área de aço (Asx) = 836.5241/(10.72 ⋅ 50.00/1.15)
+Asx = 1.80 cm²
+Asxmin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espx = 22.00 cm (projeto)
@@ -303,7 +317,9 @@ linha neutra x = 0.26 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 414.7847 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.82 cm
-Área de aço (Asy) = 0.88 cm²
+Área de aço (Asy) = 414.7847/(10.82 ⋅ 50.00/1.15)
+Asy = 0.88 cm²
+Asymin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espy = 22.00 cm (projeto)
@@ -351,7 +367,7 @@ LAJE L8 - (1.83 m x 3.38 m)
 --------------------------------------------------------
 Altura Útil (d) = 10.93 cm
 cobrimento (c) = 3.00 cm
-Concreto C30 (fck = 30.00 MPa)
+Concreto C30 (fck = 30.00 MPa = 3.00 kN/cm²)
 Aço CA-50 (fyk = 500.00 MPa)
 
 --------------------------------------------------------
@@ -363,7 +379,9 @@ linha neutra x = 0.17 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ Mx = 275.9981 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.86 cm
-Área de aço (Asx) = 0.58 cm²
+Área de aço (Asx) = 275.9981/(10.86 ⋅ 50.00/1.15)
+Asx = 0.58 cm²
+Asxmin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espx = 22.00 cm (projeto)
@@ -381,7 +399,9 @@ linha neutra x = 0.07 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 111.9104 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.90 cm
-Área de aço (Asy) = 0.24 cm²
+Área de aço (Asy) = 111.9104/(10.90 ⋅ 50.00/1.15)
+Asy = 0.24 cm²
+Asymin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espy = 22.00 cm (projeto)
@@ -429,7 +449,7 @@ LAJE L9 - (1.32 m x 1.48 m)
 --------------------------------------------------------
 Altura Útil (d) = 10.93 cm
 cobrimento (c) = 3.00 cm
-Concreto C30 (fck = 30.00 MPa)
+Concreto C30 (fck = 30.00 MPa = 3.00 kN/cm²)
 Aço CA-50 (fyk = 500.00 MPa)
 
 --------------------------------------------------------
@@ -441,7 +461,9 @@ linha neutra x = 0.07 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ Mx = 111.9104 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.90 cm
-Área de aço (Asx) = 0.24 cm²
+Área de aço (Asx) = 111.9104/(10.90 ⋅ 50.00/1.15)
+Asx = 0.24 cm²
+Asxmin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espx = 22.00 cm (projeto)
@@ -459,7 +481,9 @@ linha neutra x = 0.07 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 111.9104 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.90 cm
-Área de aço (Asy) = 0.24 cm²
+Área de aço (Asy) = 111.9104/(10.90 ⋅ 50.00/1.15)
+Asy = 0.24 cm²
+Asymin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espy = 22.00 cm (projeto)
@@ -507,7 +531,7 @@ LAJE L10 - (2.00 m x 2.04 m)
 --------------------------------------------------------
 Altura Útil (d) = 10.93 cm
 cobrimento (c) = 3.00 cm
-Concreto C30 (fck = 30.00 MPa)
+Concreto C30 (fck = 30.00 MPa = 3.00 kN/cm²)
 Aço CA-50 (fyk = 500.00 MPa)
 
 --------------------------------------------------------
@@ -519,7 +543,9 @@ linha neutra x = 0.12 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ Mx = 183.5870 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.88 cm
-Área de aço (Asx) = 0.39 cm²
+Área de aço (Asx) = 183.5870/(10.88 ⋅ 50.00/1.15)
+Asx = 0.39 cm²
+Asxmin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espx = 22.00 cm (projeto)
@@ -537,7 +563,9 @@ linha neutra x = 0.11 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 176.4925 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.89 cm
-Área de aço (Asy) = 0.37 cm²
+Área de aço (Asy) = 176.4925/(10.89 ⋅ 50.00/1.15)
+Asy = 0.37 cm²
+Asymin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espy = 22.00 cm (projeto)
@@ -585,7 +613,7 @@ LAJE L11 - (1.67 m x 1.97 m)
 --------------------------------------------------------
 Altura Útil (d) = 10.93 cm
 cobrimento (c) = 3.00 cm
-Concreto C30 (fck = 30.00 MPa)
+Concreto C30 (fck = 30.00 MPa = 3.00 kN/cm²)
 Aço CA-50 (fyk = 500.00 MPa)
 
 --------------------------------------------------------
@@ -597,7 +625,9 @@ linha neutra x = 0.11 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ Mx = 180.7449 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.88 cm
-Área de aço (Asx) = 0.38 cm²
+Área de aço (Asx) = 180.7449/(10.88 ⋅ 50.00/1.15)
+Asx = 0.38 cm²
+Asxmin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espx = 22.00 cm (projeto)
@@ -615,7 +645,9 @@ linha neutra x = 0.08 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 129.8254 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.90 cm
-Área de aço (Asy) = 0.27 cm²
+Área de aço (Asy) = 129.8254/(10.90 ⋅ 50.00/1.15)
+Asy = 0.27 cm²
+Asymin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espy = 22.00 cm (projeto)
@@ -663,7 +695,7 @@ LAJE L12 - (1.32 m x 2.34 m)
 --------------------------------------------------------
 Altura Útil (d) = 10.93 cm
 cobrimento (c) = 3.00 cm
-Concreto C30 (fck = 30.00 MPa)
+Concreto C30 (fck = 30.00 MPa = 3.00 kN/cm²)
 Aço CA-50 (fyk = 500.00 MPa)
 
 --------------------------------------------------------
@@ -675,7 +707,9 @@ linha neutra x = 0.14 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ Mx = 224.0832 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.87 cm
-Área de aço (Asx) = 0.47 cm²
+Área de aço (Asx) = 224.0832/(10.87 ⋅ 50.00/1.15)
+Asx = 0.47 cm²
+Asxmin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espx = 22.00 cm (projeto)
@@ -693,7 +727,9 @@ linha neutra x = 0.07 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 111.9104 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.90 cm
-Área de aço (Asy) = 0.24 cm²
+Área de aço (Asy) = 111.9104/(10.90 ⋅ 50.00/1.15)
+Asy = 0.24 cm²
+Asymin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espy = 22.00 cm (projeto)
@@ -741,7 +777,7 @@ LAJE L13 - (5.58 m x 6.19 m)
 --------------------------------------------------------
 Altura Útil (d) = 10.93 cm
 cobrimento (c) = 3.00 cm
-Concreto C30 (fck = 30.00 MPa)
+Concreto C30 (fck = 30.00 MPa = 3.00 kN/cm²)
 Aço CA-50 (fyk = 500.00 MPa)
 
 --------------------------------------------------------
@@ -753,12 +789,14 @@ linha neutra x = 1.32 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ Mx = 2007.3203 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.40 cm
-Área de aço (Asx) = 4.44 cm²
-Ferro utilizado: Ø8 (área = 0.79 cm²)
+Área de aço (Asx) = 2007.3203/(10.40 ⋅ 50.00/1.15)
+Asx = 4.44 cm²
+Asxmin = 2.24 cm²
+Ferro utilizado: Ø10 (área = 0.79 cm²)
 Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.79 ⋅ 100/4.44 = 17.68 cm
 Espx = 17.00 cm (projeto)
 --------------------------------------------------------
-FERRO EM X: 36 N25 Ø8.0 C/17 C = 552
+FERRO EM X: 36 N25 Ø10.0 C/17 C = 552
 --------------------------------------------------------
 
 
@@ -771,12 +809,14 @@ linha neutra x = 1.06 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 1629.2665 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.50 cm
-Área de aço (Asy) = 3.57 cm²
-Ferro utilizado: Ø8 (área = 0.79 cm²)
+Área de aço (Asy) = 1629.2665/(10.50 ⋅ 50.00/1.15)
+Asy = 3.57 cm²
+Asymin = 2.24 cm²
+Ferro utilizado: Ø10 (área = 0.79 cm²)
 Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.79 ⋅ 100/3.57 = 22.00 cm
 Espy = 22.00 cm (projeto)
 --------------------------------------------------------
-FERRO EM Y: 25 N26 Ø8.0 C/22 C = 613
+FERRO EM Y: 25 N26 Ø10.0 C/22 C = 613
 --------------------------------------------------------
 --------------------------------------------------------
 CÁLCULO DOS ESFORÇOS - LAJE L14
@@ -819,7 +859,7 @@ LAJE L14 - (3.97 m x 5.62 m)
 --------------------------------------------------------
 Altura Útil (d) = 10.93 cm
 cobrimento (c) = 3.00 cm
-Concreto C30 (fck = 30.00 MPa)
+Concreto C30 (fck = 30.00 MPa = 3.00 kN/cm²)
 Aço CA-50 (fyk = 500.00 MPa)
 
 --------------------------------------------------------
@@ -831,7 +871,9 @@ linha neutra x = 0.50 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ Mx = 776.7288 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.73 cm
-Área de aço (Asx) = 1.66 cm²
+Área de aço (Asx) = 776.7288/(10.73 ⋅ 50.00/1.15)
+Asx = 1.66 cm²
+Asxmin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espx = 22.00 cm (projeto)
@@ -849,7 +891,9 @@ linha neutra x = 0.24 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 385.1356 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.83 cm
-Área de aço (Asy) = 0.82 cm²
+Área de aço (Asy) = 385.1356/(10.83 ⋅ 50.00/1.15)
+Asy = 0.82 cm²
+Asymin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espy = 22.00 cm (projeto)
@@ -897,7 +941,7 @@ LAJE L16 - (4.34 m x 5.38 m)
 --------------------------------------------------------
 Altura Útil (d) = 10.93 cm
 cobrimento (c) = 3.00 cm
-Concreto C30 (fck = 30.00 MPa)
+Concreto C30 (fck = 30.00 MPa = 3.00 kN/cm²)
 Aço CA-50 (fyk = 500.00 MPa)
 
 --------------------------------------------------------
@@ -909,7 +953,9 @@ linha neutra x = 0.81 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ Mx = 1248.6143 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.61 cm
-Área de aço (Asx) = 2.71 cm²
+Área de aço (Asx) = 1248.6143/(10.61 ⋅ 50.00/1.15)
+Asx = 2.71 cm²
+Asxmin = 2.24 cm²
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.50 ⋅ 100/2.71 = 18.54 cm
 Espx = 18.00 cm (projeto)
@@ -927,7 +973,9 @@ linha neutra x = 0.52 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 812.2397 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.72 cm
-Área de aço (Asy) = 1.74 cm²
+Área de aço (Asy) = 812.2397/(10.72 ⋅ 50.00/1.15)
+Asy = 1.74 cm²
+Asymin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espy = 22.00 cm (projeto)
@@ -975,7 +1023,7 @@ LAJE L17 - (4.79 m x 7.11 m)
 --------------------------------------------------------
 Altura Útil (d) = 10.93 cm
 cobrimento (c) = 3.00 cm
-Concreto C30 (fck = 30.00 MPa)
+Concreto C30 (fck = 30.00 MPa = 3.00 kN/cm²)
 Aço CA-50 (fyk = 500.00 MPa)
 
 --------------------------------------------------------
@@ -987,7 +1035,9 @@ linha neutra x = 1.00 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ Mx = 1538.5804 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.53 cm
-Área de aço (Asx) = 3.36 cm²
+Área de aço (Asx) = 1538.5804/(10.53 ⋅ 50.00/1.15)
+Asx = 3.36 cm²
+Asxmin = 2.24 cm²
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espx) = Øs ⋅ 100/Asx = 0.50 ⋅ 100/3.36 = 14.94 cm
 Espx = 14.00 cm (projeto)
@@ -1005,7 +1055,9 @@ linha neutra x = 0.44 cm
 Msdmin = 111.9104 kN.cm/m
 Msd = 1.4 ⋅ My = 693.2283 kN.cm/m
 Braço de alavanca (z) = d - 0.4x = 10.75 cm
-Área de aço (Asy) = 1.48 cm²
+Área de aço (Asy) = 693.2283/(10.75 ⋅ 50.00/1.15)
+Asy = 1.48 cm²
+Asymin = 2.24 cm² (Valor adotado)
 Ferro utilizado: Ø8 (área = 0.50 cm²)
 Espaçamento (Espy) = Øs ⋅ 100/Asy = 0.50 ⋅ 100/2.24 = 22.42 cm
 Espy = 22.00 cm (projeto)
