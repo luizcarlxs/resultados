@@ -156,53 +156,47 @@ for i=1:nm
     
     zx = d - 0.4*xx;
     Asx = msdx/(zx*(fyk*0.1/1.15));
-    fprintf('\nAsx Antes(%d) = %.2f cm²\n',i, Asx);
+    %fprintf('\nAsx Antes(%d) = %.2f cm²\n',i, Asx);
     Asxt = Asx;
     
     zy = d - 0.4*xy;
     Asy = msdy/(zy*(fyk*0.1/1.15));
     Asyt = Asy;
-    fprintf('\nAsy Antes(%d) = %.2f cm²\n',i, Asy);  
+    %fprintf('\nAsy Antes(%d) = %.2f cm²\n',i, Asy);  
     Asmin = 0.0015*100*h;
-    fprintf('\nAsmin(%d) = %.2f cm²\n',i, Asmin);
+    %fprintf('\nAsmin(%d) = %.2f cm²\n',i, Asmin);
 
-    %if Asmin > Asx
-    %    Asx = Asmin;
-    %    %fprintf('\nAsx(%d) = %.2f cm²\n',i, Asx);
-    % end
+    if Asmin > Asx
+        Asx = Asmin;
+        %fprintf('\nAsx(%d) = %.2f cm²\n',i, Asx);
+    end
     %fprintf('\nAsx depois(%d) = %.2f cm²\n',i, Asx);
-    %if Asmin > Asy
-    %    Asy = Asmin;
-    %    %fprintf('\nAsy(%d) = %.2f cm²\n',i, Asy);
-    %end
+    if Asmin > Asy
+        Asy = Asmin;
+        %fprintf('\nAsy(%d) = %.2f cm²\n',i, Asy);
+    end
     %fprintf('\nAsy depois(%d) = %.2f cm²\n',i, Asy);
     
-    bitx = 5;
+    matS = zeros(nb,4);
     for ib=1:nb
-        sb = bit50(ib,2)*100/Asx;
-        if sb >= 13 && sb<=22
-            bitx=bit50(ib,1);
-        end
+        matS(ib,1)= bit50(ib,2)*100/Asx;
+        matS(ib,2)= bit50(ib,2)*100/Asy;
+        matS(ib,3)= bit50(ib,1);
+        matS(ib,4)= bit50(ib,2);
     end 
     
-    bity = 5;
-    for ib2=1:nb
-        sb2 = bit50(ib2,2)*100/Asy;
-        if sb2 >= 13 && sb2 <=22
-            bity=bit50(ib2,1);
-        end
-    end 
-
+    fprintf('\nib = %d e i = %d\n',ib, i);
+    matS;
+    sbx = max(matS(matS(:,2) <= 23,1));
+    sby = max(matS(matS(:,2) <= 23,2));
+    
+    
     %localiza a posição da linha da bitola na tabela de área
-    indx = find(bit50(:,1) == bitx);
-    indy = find(bit50(:,1) == bity);
-    
-    %localiza a posição da linha de Ax, Ay
-    iAx = (indx + 1*nb);
-    iAy = (indy + 1*nb);
-    
-    Ax = bit50(iAx);
-    Ay = bit50(iAy);
+    indx = find(matS(:,1) == sbx);
+    indy = find(matS(:,2) == sby);
+
+    Ax = matS(indx,4);
+    Ay = matS(indy,4);
     
     sx = Ax*100/Asx;
     SX = floor(sx);
